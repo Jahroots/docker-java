@@ -5,8 +5,8 @@ RUN apt-get update
 RUN apt-get -y install curl
 
 ENV JAVA_VERSION_MAJOR 8
-ENV JAVA_VERSION_MINOR 20
-ENV JAVA_VERSION_BUILD 26
+ENV JAVA_VERSION_MINOR 31
+ENV JAVA_VERSION_BUILD 13
 ENV JAVA_PACKAGE       server-jre
 
 RUN curl -kLOH "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"\
